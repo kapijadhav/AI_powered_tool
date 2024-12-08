@@ -23,5 +23,12 @@ This is an AI-powered web tool built using Flask that analyzes Python code snipp
 ### Installation Steps
 
 1. **Clone the repository**:
-   ```bash
+
+## Screenshots
+
+### Screenshot
+![Input and output Screenshot](screenshots/screenshot.png)
+
+
+
 
