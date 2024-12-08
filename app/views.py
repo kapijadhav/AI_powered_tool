@@ -11,7 +11,7 @@ def home():
             return render_template("index.html", error="Please provide a code snippet.")
 
         # Analyze the code
-        result = analyze_code(code)
+        result = analyze_code(code) # result is a dictionary with issues and suggestions
         return render_template("index.html", result=result, code=code)
 
     return render_template("index.html")
